@@ -1,0 +1,75 @@
+body {
+    font-family: Monospace;
+    margin: 20px;
+    background-color: #ffffff00;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+.terms-checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.terms-checkbox label {
+    margin-left: 10px;
+}
+
+.countdown {
+    font-size: 14px;
+    color: #888;
+    margin-left: 10px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.submit-btn.enabled {
+    cursor: pointer;
+    opacity: 1;
+}
